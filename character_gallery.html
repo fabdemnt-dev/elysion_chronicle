@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>花天使たち — 花咲く街エリュシオン</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --bg:#edebf4; --bg-soft:#f5f3fa; --card:#ffffff;
+  --ink:#2b2438; --ink-soft:#5e5670; --ink-faint:#8b839c; --line:#ddd6ec;
+  --gold:#b98a2a; --gold-soft:#f2e6cb;
+  --font-display:"Shippori Mincho","Hiragino Mincho ProN",serif;
+  --font-body:"Zen Maru Gothic","Hiragino Maru Gothic ProN","Yu Gothic",sans-serif;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:
+    radial-gradient(1200px 500px at 15% -10%, #f6e9ef 0%, transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, #e4ecec 0%, transparent 55%),
+    var(--bg);
+  color:var(--ink); font-family:var(--font-body); line-height:1.8;
+}
+header{max-width:1000px;margin:0 auto;padding:44px 20px 10px;text-align:center}
+.eyebrow{font-size:12.5px;letter-spacing:.28em;color:var(--ink-faint)}
+.eyebrow::before{content:"❀ ";color:var(--gold)}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(26px,5.5vw,38px);margin:10px 0 8px}
+.lead{color:var(--ink-soft);font-size:14.5px;max-width:60ch;margin:0 auto 8px}
+main{max-width:1080px;margin:0 auto;padding:20px 20px 70px}
+.grid{display:grid;grid-template-columns:1fr;gap:20px}
+@media (min-width:640px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:960px){.grid{grid-template-columns:repeat(3,1fr)}}
+.card{
+  background:var(--card); border:1px solid var(--line); border-radius:20px;
+  box-shadow:0 2px 10px rgba(43,36,56,.06), 0 10px 30px rgba(43,36,56,.05);
+  padding:22px 20px 24px; text-align:center; position:relative; overflow:hidden;
+}
+.card::before{content:"";position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--accent) 0%, var(--gold) 100%)}
+.badge{width:132px;height:132px;margin:6px auto 14px;border-radius:50%;background:var(--accent-soft);display:flex;align-items:center;justify-content:center}
+.badge svg{width:100px;height:100px}
+.namewrap{margin-bottom:6px}
+.name-ja{font-family:var(--font-display);font-size:21px;font-weight:700;color:var(--ink)}
+.name-en{font-size:12px;letter-spacing:.14em;color:var(--ink-faint);text-transform:uppercase}
+.ability{
+  display:inline-block;margin:6px 0 12px;padding:4px 12px;border-radius:999px;
+  background:var(--gold-soft);color:#7a5c1c;font-size:12.5px;font-weight:700;
+}
+.persona{font-size:13.5px;color:var(--ink-soft);text-align:left;margin:0 0 10px;padding:0 2px}
+.meta{font-size:12px;color:var(--ink-faint);border-top:1px dashed var(--line);padding-top:10px;margin-top:10px;text-align:left}
+.meta b{color:var(--ink-soft);font-weight:700}
+footer{text-align:center;color:var(--ink-faint);font-size:12px;padding:10px 20px 40px}
+</style>
+</head>
+<body>
+<header>
+<div class="eyebrow">花咲く街エリュシオン</div>
+<h1>花の名を持つ天使たち</h1>
+<p class="lead">9人それぞれの花をモチーフにした、手描き風のシンボルイラストです。公式設定のpersona・固有能力・よくいる場所をまとめました。</p>
+</header>
+<main>
+<div class="grid">
+
+<!-- アイリス -->
+<section class="card" style="--accent:#5a4fb8; --accent-soft:#e7e4f7">
+<div class="badge">
+<svg viewBox="0 0 120 140" fill="#5a4fb8">
+  <ellipse cx="60" cy="118" rx="4" ry="18" fill="#6f8f6a"/>
+  <path d="M60 92 C 40 100, 30 118, 34 132 C 46 126, 58 112, 60 92 Z"/>
+  <path d="M60 92 C 80 100, 90 118, 86 132 C 74 126, 62 112, 60 92 Z"/>
+  <path d="M60 92 C 66 108, 66 122, 60 132 C 54 122, 54 108, 60 92 Z" opacity="0.85"/>
+  <path d="M60 92 C 52 74, 40 66, 30 68 C 34 80, 46 90, 60 92 Z" opacity="0.9"/>
+  <path d="M60 92 C 68 74, 80 66, 90 68 C 86 80, 74 90, 60 92 Z" opacity="0.9"/>
+  <path d="M60 92 C 58 70, 60 56, 66 46 C 70 58, 68 76, 60 92 Z"/>
+  <circle cx="60" cy="90" r="4" fill="#f2d34b"/>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">アイリス</div><div class="name-en">Iris</div></div>
+<div class="ability">風囁やき</div>
+<p class="persona">明るく社交的で頭の回転が速い。人の話や街の小さな変化をよく覚えていて、さりげなく助け舟を出す。噂話は好きだが人を傷つけない。</p>
+<div class="meta"><b>よくいる場所：</b>花灯りの小路</div>
+</section>
+
+<!-- ミモザ -->
+<section class="card" style="--accent:#d9a72c; --accent-soft:#faf0d3">
+<div class="badge">
+<svg viewBox="0 0 120 140" fill="#e0af2f">
+  <path d="M60 140 L60 70" stroke="#7a8f5a" stroke-width="4" fill="none"/>
+  <path d="M60 100 L30 88" stroke="#7a8f5a" stroke-width="3" fill="none"/>
+  <path d="M60 90 L92 80" stroke="#7a8f5a" stroke-width="3" fill="none"/>
+  <path d="M60 78 L34 60" stroke="#7a8f5a" stroke-width="3" fill="none"/>
+  <g>
+    <circle cx="60" cy="30" r="16"/>
+    <circle cx="34" cy="42" r="13"/>
+    <circle cx="86" cy="42" r="13"/>
+    <circle cx="30" cy="66" r="12"/>
+    <circle cx="90" cy="66" r="12"/>
+    <circle cx="60" cy="58" r="14"/>
+  </g>
+  <g fill="#f6db8c">
+    <circle cx="60" cy="30" r="6"/><circle cx="34" cy="42" r="5"/><circle cx="86" cy="42" r="5"/>
+    <circle cx="30" cy="66" r="5"/><circle cx="90" cy="66" r="5"/><circle cx="60" cy="58" r="6"/>
+  </g>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">ミモザ</div><div class="name-en">Mimosa</div></div>
+<div class="ability">花結び</div>
+<p class="persona">明るく親しみやすく、人と人の間に自然と入っていける。誰かが一人でいると声をかけ、気の合いそうな相手を引き合わせるのが得意。</p>
+<div class="meta"><b>よくいる場所：</b>エテルニテ広場</div>
+</section>
+
+<!-- アネモネ -->
+<section class="card" style="--accent:#c3435a; --accent-soft:#f6dde1">
+<div class="badge">
+<svg viewBox="0 0 120 120" fill="#c3435a">
+  <ellipse cx="103.3" cy="60.0" rx="23" ry="10" transform="rotate(0 103.3 60.0)"/>
+  <ellipse cx="93.8" cy="79.8" rx="23" ry="10" transform="rotate(51.4 93.8 79.8)"/>
+  <ellipse cx="72.4" cy="84.7" rx="23" ry="10" transform="rotate(102.9 72.4 84.7)"/>
+  <ellipse cx="55.2" cy="71.0" rx="23" ry="10" transform="rotate(154.3 55.2 71.0)"/>
+  <ellipse cx="55.2" cy="49.0" rx="23" ry="10" transform="rotate(205.7 55.2 49.0)"/>
+  <ellipse cx="72.4" cy="35.3" rx="23" ry="10" transform="rotate(257.1 72.4 35.3)"/>
+  <ellipse cx="93.8" cy="40.2" rx="23" ry="10" transform="rotate(308.6 93.8 40.2)"/>
+  <circle cx="78" cy="60" r="11" fill="#2b2438"/>
+  <circle cx="78" cy="60" r="6" fill="#5a4a2c"/>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">アネモネ</div><div class="name-en">Anemone</div></div>
+<div class="ability">万華鏡</div>
+<p class="persona">自由でマイペース。知らないものや見たことのない景色への好奇心が強く、自分の目で確かめたくなる。束縛されるのは少し苦手。</p>
+<div class="meta"><b>よくいる場所：</b>花咲く街の駅</div>
+</section>
+
+<!-- エリカ -->
+<section class="card" style="--accent:#c56f92; --accent-soft:#f7e2ea">
+<div class="badge">
+<svg viewBox="0 0 120 140">
+<path d="M60 140 L60 40" stroke="#6f8f6a" stroke-width="4" fill="none"/>
+<g transform="translate(60,30) scale(1.0)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+<g transform="translate(44,45) scale(0.85)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+<g transform="translate(76,45) scale(0.85)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+<g transform="translate(60,60) scale(0.75)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+<g transform="translate(48,72) scale(0.65)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+<g transform="translate(72,72) scale(0.65)" fill="#c56f92">
+<ellipse cx="7.7" cy="0" rx="7" ry="3" transform="rotate(0 7.7 0)"/>
+<ellipse cx="2.4" cy="7.3" rx="7" ry="3" transform="rotate(72 2.4 7.3)"/>
+<ellipse cx="-6.2" cy="4.5" rx="7" ry="3" transform="rotate(144 -6.2 4.5)"/>
+<ellipse cx="-6.2" cy="-4.5" rx="7" ry="3" transform="rotate(216 -6.2 -4.5)"/>
+<ellipse cx="2.4" cy="-7.3" rx="7" ry="3" transform="rotate(288 2.4 -7.3)"/>
+</g>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">エリカ</div><div class="name-en">Erica</div></div>
+<div class="ability">夢渡り</div>
+<p class="persona">物静かで落ち着いており、一人で過ごす時間を大切にしている。感情を大きく出さないが、内面には豊かな想像力と好奇心を持つ。</p>
+<div class="meta"><b>よくいる場所：</b>花守りの教会</div>
+</section>
+
+<!-- ダフネ -->
+<section class="card" style="--accent:#d98fac; --accent-soft:#f9e6ee">
+<div class="badge">
+<svg viewBox="0 0 120 140">
+<path d="M60 140 L60 46" stroke="#7a8f5a" stroke-width="4" fill="none"/>
+<g transform="translate(60,34) scale(1.0)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+<g transform="translate(40,50) scale(0.9)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+<g transform="translate(80,50) scale(0.9)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+<g transform="translate(60,62) scale(0.8)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+<g transform="translate(46,72) scale(0.7)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+<g transform="translate(74,72) scale(0.7)" fill="#d98fac">
+<ellipse cx="5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(45 5.1 5.1)"/>
+<ellipse cx="-5.1" cy="5.1" rx="6.5" ry="2.7" transform="rotate(135 -5.1 5.1)"/>
+<ellipse cx="-5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(225 -5.1 -5.1)"/>
+<ellipse cx="5.1" cy="-5.1" rx="6.5" ry="2.7" transform="rotate(315 5.1 -5.1)"/>
+<circle r="2.6" fill="#f6d94b"/>
+</g>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">ダフネ</div><div class="name-en">Daphne</div></div>
+<div class="ability">忘れ灯</div>
+<p class="persona">落ち着いていて知的。物静かで、自分から多くを語るタイプではないが相手の話はよく聞いている。記憶力がよく昔の出来事もよく覚えている。</p>
+<div class="meta"><b>よくいる場所：</b>木漏れ日の図書館</div>
+</section>
+
+<!-- カンパニュラ -->
+<section class="card" style="--accent:#4f6fae; --accent-soft:#e3e9f6">
+<div class="badge">
+<svg viewBox="0 0 120 140" fill="#4f6fae">
+  <path d="M60 140 L60 66" stroke="#6f8f6a" stroke-width="4" fill="none"/>
+  <path d="M60 62 C 30 62, 26 96, 60 112 C 94 96, 90 62, 60 62 Z"/>
+  <path d="M60 68 C 40 68, 38 92, 60 104 C 82 92, 80 68, 60 68 Z" fill="#7891c4"/>
+  <path d="M42 96 q 4 10 -2 16" stroke="#4f6fae" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M60 100 q 0 12 0 18" stroke="#4f6fae" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M78 96 q -4 10 2 16" stroke="#4f6fae" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">カンパニュラ</div><div class="name-en">Campanula</div></div>
+<div class="ability">鐘の知らせ</div>
+<p class="persona">穏やかで慎重。周囲の音や空気の変化によく気づくが、確信が持てるまでは口に出さない。話し方は静かで自然体、少し中性的。</p>
+<div class="meta"><b>よくいる場所：</b>時告げの鐘楼</div>
+</section>
+
+<!-- ビオラ -->
+<section class="card" style="--accent:#7d5ba6; --accent-soft:#ece3f4">
+<div class="badge">
+<svg viewBox="0 0 120 120" fill="#7d5ba6">
+  <ellipse cx="60.0" cy="35.8" rx="22" ry="9.5" transform="rotate(-90 60.0 35.8)"/>
+  <ellipse cx="83.0" cy="52.5" rx="22" ry="9.5" transform="rotate(-18 83.0 52.5)"/>
+  <ellipse cx="74.2" cy="79.6" rx="22" ry="9.5" transform="rotate(54 74.2 79.6)" fill="#5d3e82"/>
+  <ellipse cx="45.8" cy="79.6" rx="22" ry="9.5" transform="rotate(126 45.8 79.6)" fill="#5d3e82"/>
+  <ellipse cx="37.0" cy="52.5" rx="22" ry="9.5" transform="rotate(198 37.0 52.5)"/>
+  <circle cx="60" cy="60" r="8" fill="#f2d34b"/>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">ビオラ</div><div class="name-en">Viola</div></div>
+<div class="ability">花占い</div>
+<p class="persona">控えめで穏やか。人の話を静かに聞くのが得意で、必要以上に前へ出ない。人の気持ちの変化に気づきやすく、そっと背中を押す。</p>
+<div class="meta"><b>よくいる場所：</b>ベルフローラ・クロイスター</div>
+</section>
+
+<!-- ネリネ -->
+<section class="card" style="--accent:#d1547e; --accent-soft:#f8dfea">
+<div class="badge">
+<svg viewBox="0 0 120 120" fill="none" stroke="#d1547e" stroke-width="5" stroke-linecap="round">
+  <path d="M60 60 L108 60" transform="rotate(0 60 60)"/>
+  <path d="M60 60 L104 84" transform="rotate(0 60 60)"/>
+  <path d="M60 60 L84 104" transform="rotate(0 60 60)"/>
+  <path d="M60 60 L36 104" transform="rotate(0 60 60)"/>
+  <path d="M60 60 L16 84" transform="rotate(0 60 60)"/>
+  <path d="M60 60 L12 60" transform="rotate(0 60 60)"/>
+  <g fill="#d1547e" stroke="none">
+    <circle cx="108" cy="60" r="4"/><circle cx="104" cy="84" r="4"/><circle cx="84" cy="104" r="4"/>
+    <circle cx="36" cy="104" r="4"/><circle cx="16" cy="84" r="4"/><circle cx="12" cy="60" r="4"/>
+  </g>
+  <circle cx="60" cy="60" r="7" fill="#f2d34b" stroke="none"/>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">ネリネ</div><div class="name-en">Nerine</div></div>
+<div class="ability">光紡ぎ</div>
+<p class="persona">感性が豊かで、美しいものや心惹かれる景色を見つけるのが得意。何かを作り始めると時間を忘れるほど夢中になる。</p>
+<div class="meta"><b>よくいる場所：</b>花眠りの庭</div>
+</section>
+
+<!-- ルピナス -->
+<section class="card" style="--accent:#6f6fae; --accent-soft:#e5e5f6">
+<div class="badge">
+<svg viewBox="0 0 120 140">
+<path d="M60 140 L60 100" stroke="#6f8f6a" stroke-width="4" fill="none"/>
+<g transform="translate(48,96) rotate(-20) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(72,96) rotate(20) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(44,80) rotate(-25) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(76,80) rotate(25) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(48,64) rotate(-20) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(72,64) rotate(20) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(52,48) rotate(-15) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(68,48) rotate(15) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+<g transform="translate(60,34) rotate(0) scale(1.0)"><ellipse cx="0" cy="0" rx="9" ry="6" fill="#6f6fae"/><ellipse cx="7" cy="-2" rx="6" ry="4" fill="#8f8fc8"/></g>
+</svg>
+</div>
+<div class="namewrap"><div class="name-ja">ルピナス</div><div class="name-en">Lupinus</div></div>
+<div class="ability">星詠み</div>
+<p class="persona">夢見がちでロマンチスト。星や物語、まだ起きていない未来について想像することが好き。ひとつの出来事から可能性を思い描くのが得意。</p>
+<div class="meta"><b>よくいる場所：</b>星待ちの丘</div>
+</section>
+
+</div>
+</main>
+<footer>花咲く街エリュシオン — 9人の花天使たち（イラスト・まとめ）</footer>
+</body>
+</html>
