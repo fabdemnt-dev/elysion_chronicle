@@ -5,6 +5,7 @@
 ## 内容
 
 - 公式設定(official_settings.md)
+- 変更履歴(CHANGELOG.md)
 - ペア進行順リスト(pair_order.md)
 - ペアごとの会話まとめ(pairsフォルダ)
 
