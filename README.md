@@ -8,6 +8,7 @@
 - 変更履歴(CHANGELOG.md)
 - ペア進行順リスト(pair_order.md)
 - ペアごとの会話まとめ(pairsフォルダ)
+- 街の新聞記事(newspapers.md) ※新聞記者視点の小説資料
 
 ## 利用方法
 
