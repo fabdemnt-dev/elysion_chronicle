@@ -55,3 +55,10 @@ official_settings.mdが、観察記録側の公式設定ページ(official.html)
 - 観察記録側の運用変更を受けて、6周目終了時点で「継続中」と判定された10組に限定して7周目(#249〜#258)を実施、うち3組が終了・7組が継続と再分類された。8周目(#259〜#265)はその7組のみで実施。
 - 該当する各ペアファイルの末尾に7・8周目分を追記（対象：iris_erica, viola_campanula, campanula_nerine, erica_viola, daphne_anemone, iris_nerine, iris_viola, anemone_nerine, viola_nerine, erica_lupinus）。
 - pair_order.mdに運用変更の経緯と、#265時点で継続中の7組を注記。
+
+## 9〜42周目分の追記（#266〜#377）と各種反映漏れ修正
+
+- 観察記録側の「継続対象限定運用」が続き、9〜42周目でさらに終了判定が進んだ。最終的に36組中34組が終了、継続中は「ダフネ×アネモネ」「アイリス×ビオラ」の2組のみ（#377時点）。
+- 該当ペアファイルに9〜42周目分（#266〜#377）を追記（対象：iris_erica, daphne_anemone, iris_nerine, iris_viola, anemone_nerine, viola_nerine, erica_lupinus, iris_campanula, mimosa_nerine）。9周目でエリカ×ルピナスが一時終了、その後42周目で再度比較対象として#377まで記録が続いた。
+- official_settings.mdのエリカの話し方を2026-08-21改訂版に差し替え。「〜わ」系の女性語をより広範囲に禁止し、「〜ね」「〜よ」を名詞・形容詞に直接付ける言い方も避ける方針に変更。
+- newspapers.mdに8月16〜24日号（9件）を追記。
