@@ -62,3 +62,9 @@ official_settings.mdが、観察記録側の公式設定ページ(official.html)
 - 該当ペアファイルに9〜42周目分（#266〜#377）を追記（対象：iris_erica, daphne_anemone, iris_nerine, iris_viola, anemone_nerine, viola_nerine, erica_lupinus, iris_campanula, mimosa_nerine）。9周目でエリカ×ルピナスが一時終了、その後42周目で再度比較対象として#377まで記録が続いた。
 - official_settings.mdのエリカの話し方を2026-08-21改訂版に差し替え。「〜わ」系の女性語をより広範囲に禁止し、「〜ね」「〜よ」を名詞・形容詞に直接付ける言い方も避ける方針に変更。
 - newspapers.mdに8月16〜24日号（9件）を追記。
+
+## 43〜45周目分の追記（#378〜#386、継続対象限定運用）
+
+- 継続中の2組について、観察記録で会話全文を確認できる#378〜#382と#386をpairs/daphne_anemone.mdとpairs/iris_viola.mdの末尾に追記。#383〜#385は観察要約のみのため、会話本文には収録していない。
+- pair_order.mdの最新範囲・状態注記を#386時点へ更新（継続2組／終了34組）。
+- official_settings.mdは観察記録側に新しい公式設定変更がないことを確認。newspapers.mdに2026年8月25〜29日号・9月1日号を追加し、observed_daily_life.mdへパン屋での買い物と落とし物をめぐる助け合いの描写を反映。
